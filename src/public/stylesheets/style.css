@@ -1,0 +1,60 @@
+.container {
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  box-shadow: 0px 0px 5px 0px rgba(0, 0, 0, 0.5);
+  margin-top: 50px;
+  padding: 20px;
+}
+
+.btn-primary {
+  background-color: #64b767;
+  border-color: #64b767;
+}
+
+.navbar {
+  background-color: #6aa84f;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+body {
+  background-image: url('https://img.freepik.com/premium-vector/various-cartoon-birds-collection-any-visual-design_88272-1598.jpg?w=1380');
+  background-size: cover;
+  background-position: center;
+}
+
+.navbar {
+  background-color: #6aa84f;
+}
+
+.navbar-brand {
+  color: white;
+}
+
+.form-control {
+  background-color: #d8f3dc;
+  color: #1d3557;
+  border-color: #6aa84f;
+}
+
+.btn-primary {
+  background-color: #6aa84f;
+  border-color: #6aa84f;
+}
+
+.btn-primary:hover {
+  background-color: #478c34;
+  border-color: #478c34;
+}
+
+.card {
+  background-color: #f1faee;
+  border-color: #6aa84f;
+}
+
+.card-header {
+  background-color: #6aa84f;
+  color: white;
+}
