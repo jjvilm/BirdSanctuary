@@ -1,5 +1,6 @@
 var express = require('express');
 var router = express.Router();
+const formController = require('../controllers/birdFormController');
 
 /* GET create bird form. */
 router.get('/create', function (req, res, next) {
@@ -8,16 +9,8 @@ router.get('/create', function (req, res, next) {
 
 /* POST create bird. */
 router.post('/create', function (req, res, next) {
-  var species = req.body.species;
-  var nickname = req.body.nickname;
-  var status = req.body.status;
-  var bird = {
-    species: species,
-    nickname: nickname,
-    status: status,
-  };
-  console.log(bird);
-  res.render('birdCreated', { bird: bird });
+  // calls the bird form controller to handle data
+  formController.form_post(req, res);
 });
 
 module.exports = router;
